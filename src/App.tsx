@@ -6,6 +6,7 @@ import {
   Clock, Users, Truck, Star, ChevronRight,
   Bell, Settings, LogOut, Menu
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- PRODUCTION COMPONENT CONFIGURATION DATA ---
 const INITIAL_STORES = [
@@ -663,6 +664,7 @@ export default function App() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
