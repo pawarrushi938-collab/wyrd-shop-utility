@@ -130,7 +130,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans antialiased selection:bg-emerald-500 selection:text-white">
+    <div className="min-h-screen bg-black text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-white">
 
       {/* --- GLOBAL APPLICATION HEADER --- */}
       <header className="sticky top-0 z-40 bg-white border-b border-slate-200 shadow-sm backdrop-blur-md bg-white/95">
